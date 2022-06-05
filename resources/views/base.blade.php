@@ -9,13 +9,14 @@
 </head>
 <body>
     <div class="container">
-        <h3>Hello World</h3>
+        <h3>Blog</h3>
         <div class="card">
             <div class="card-header" mt-5>
                 <h1>Get Access Token</h1>
             </div>
-            <div class="card-body">
-                <input type="text" name="getAccess" value="{{ $response }}">
+            <div class="card-body" mt-5>
+                {{-- <input type="text" name="getAccess" value="{{ $response }}"> --}}
+                {{ dd($response) }}
                 <button class="btn btn-primary">Get Token</button>
             </div>
         </div>
